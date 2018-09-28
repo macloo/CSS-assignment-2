@@ -20,23 +20,20 @@ img {
 }
 
 section {
-  max-width: 512px;
+  max-width: 600px;
 }
 
-.text{
-  background: #FFF;
+.text {
   padding : 20px 50px;
   font-size: 1.1rem;
   line-height: 1.2;
 }
 
-h2{
-  text-align: center;
-}
+
 
 article {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
