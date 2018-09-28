@@ -1,0 +1,135 @@
+/* you will add css rules for element selectors and IDs */
+
+
+/* you may add to or change the body rule */
+* {
+    box-sizing: border-box;
+}
+
+html{
+  font-size: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+}
+
+section {
+  max-width: 600px;
+}
+
+.text {
+  padding : 20px 50px;
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+
+
+article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer{
+  background: #666;
+  padding: 1rem;
+  margin:0;
+  margin-bottom: 0%;
+}
+footer p{
+  text-align: center
+}
+
+header{
+  background: #666;
+  color: #000000;
+  margin: 0;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  color: #fff;
+  font: 15px arial, sans-serif;
+  font-weight: bold;
+  font-size: 350%;
+  letter-spacing: 2px;
+  text-align :justify;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+nav ul li{
+  margin:0;
+  margin-left:1rem;
+  font: 15px arial, sans-serif;
+  text-align: center;
+  font-weight:lighter;
+  font-style: normal;
+  color: #379CB2;
+  font-size: 150%;
+  padding-top: 0;
+  padding-right: 60px
+
+}
+
+
+#cougar{
+  background: #B26219;
+}
+#lion{
+  background: #FFD5AE;
+}
+#tiger{
+  background:#FFBD82;
+}
+
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    FFD5AE pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+a {
+    color: #379CB2;
+}
+a:hover {
+    color: #82E8FF;
+}
